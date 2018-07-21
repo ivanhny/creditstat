@@ -9,8 +9,6 @@ if(!$connect) {
 }
 
 echo "Success: A connection was enabled";
-echo "Host Information: ".mysqli_get_host_info($connect).PHP_EOL;
-
 
 
 ?>
