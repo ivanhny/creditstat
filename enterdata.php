@@ -1,6 +1,6 @@
 <?php
 
-$connect = new mysqli(127.0.0.1, 'root', 'pushi100', 'Credit');
+$connect = new mysqli('127.0.0.1', 'root', 'pushi100', 'Credit');
 
 if(!$connect) {
    echo "Error: Unable to Connect to database";
